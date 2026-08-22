@@ -13,5 +13,5 @@ Sistema de gerenciamento de uma competição de futebol universitária desenvolv
 - **Estruturas de repetição:** `do-while` deixam o sistema em execução até a finalização na tela de resultados da competição.
 - **Vetores:** um do tipo `string` para guardar os nomes das seleções e outro do tipo `int` para guardar os pontos das seleções.
 - **Matrizes:** um para guardar os nomes dos jogadores e relacionar com suas seleções e outro para relacionar os gols feitos na partidas aos jogadores.
-- **Métodos:** Todas as funcionalidades do sistema funcionam por métodos separados, somente sendo chamado dentro de outro para funcionar conforme observado no src do projeto.
+- **Métodos:** Todas as funcionalidades do sistema funcionam por métodos separados, somente sendo chamados dentro de outro para funcionar conforme observado no src do projeto.
 
