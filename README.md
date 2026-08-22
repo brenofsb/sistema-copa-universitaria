@@ -6,7 +6,7 @@ Projeto final da disciplina Lógica de Programação e Algoritmos (1º semestre 
 Sistema de gerenciamento de uma competição de futebol universitária desenvolvido em Java. A aplicação permite o cadastro de seleções e jogadores, registro de partidas de ida e volta, controle de gols, cálculo de pontos, definição do campeão, ranking das seleções e relatórios completos de desempenho da competição.
 
 ## Tecnologia
-- **Java (uso de `Scanner` para entrada de dados via console)**
+- Java (uso de `Scanner` para entrada de dados via console).
 
 ## Requisitos atendidos
 - **Estruturas de seleção:** menus via `switch` com suas respectivas funcionalidades.
