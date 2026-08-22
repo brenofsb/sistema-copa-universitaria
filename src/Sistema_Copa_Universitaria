@@ -509,8 +509,7 @@ public class Sistema_Copa_Universitaria {
 				int gols = verGolsJogador(selecoes[s], jogadores[s][j], selecoes, jogadores, golsJogadores);
 				
 				if (gols == maisGols) {
-					int totalJogos = quantSelecao * (quantSelecao - 1);
-					double media = (double) gols / totalJogos;
+					double media = (double) gols / 8;
 
 					System.out.println("\nJogador: " + jogadores[s][j] + "\nSelecao: " + selecoes[s]
 							+ "\nQuantidade de gols: " + gols + "\nMedia de gols por partida: " + media);
@@ -578,8 +577,7 @@ public class Sistema_Copa_Universitaria {
 
 		for (int s = 0; s < quantSelecao; s++) {
 			int gols = verGolsSelecao(selecoes[s], selecoes, golsJogadores);
-			int totalJogos = quantSelecao * (quantSelecao - 1);
-			double media = (double) gols / totalJogos;
+			double media = (double) gols / 8;
 
 			System.out.println("Selecao: " + selecoes[s] + "\nQuantidade gols: " + gols
 					+ "\nMedia de gols por partida: " + media + "\nPontos: " + pontos[s]);
