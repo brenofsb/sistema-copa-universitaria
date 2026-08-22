@@ -11,7 +11,7 @@ Sistema de gerenciamento de uma competição de futebol universitária desenvolv
 ## Requisitos atendidos
 - **Estruturas de seleção:** menus via `switch` com suas respectivas funcionalidades.
 - **Estruturas de repetição:** `do-while` deixam o sistema em execução até a finalização na tela de resultados da competição.
-- **Vetores:** um `string` para guardar os nomes das seleções e outro `int` para guardar os pontos das seleções.
+- **Vetores:** um do tipo `string` para guardar os nomes das seleções e outro do tipo `int` para guardar os pontos das seleções.
 - **Matrizes:** relaciona os jogadores com suas respectivas seleções e os gols aos jogadores que o fizeram nas partidas.
 - **Métodos:** Todas as funcionalidades do sistema funcionam por métodos separados, somente sendo chamado dentro de outro para funcionar conforme observado no src do projeto.
 
