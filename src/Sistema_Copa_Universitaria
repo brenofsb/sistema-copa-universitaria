@@ -2,7 +2,7 @@
 
 package Copa_universitaria;
 
-import java.util.Scanne;
+import java.util.Scanner;
 
 public class Sistema_Copa_Universitaria {
 
