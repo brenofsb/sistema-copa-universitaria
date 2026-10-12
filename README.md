@@ -1,4 +1,4 @@
-# Simulador de copa universitária controlado pelo usuário
+# Simulador de copa universitária
 
 Projeto final da disciplina Lógica de Programação e Algoritmos (1º semestre - ES, UCSAL) desenvolvido individualmente.
 
