@@ -1,17 +1,43 @@
-# Simulador de copa universitária
+# Simulador de Copa Universitária
 
-Projeto final da disciplina Lógica de Programação e Algoritmos (1º semestre - ES, UCSAL) desenvolvido individualmente.
+Projeto final da disciplina de Lógica de Programação e Algoritmos, do 1º semestre de Engenharia de Software da UCSAL. Desenvolvido individualmente em Java.
 
-## Descrição
-Sistema de gerenciamento de uma competição de futebol universitária desenvolvido em Java. A aplicação permite o cadastro de seleções e jogadores, registro de partidas de ida e volta, controle de gols, cálculo de pontos, definição do campeão, ranking das seleções e relatórios completos de desempenho da competição.
+## Sobre o projeto
+Aplicação de console para gerenciar uma competição de futebol entre seleções universitárias. Durante a execução, o usuário cadastra as seleções e os jogadores, registra os resultados das partidas e consulta estatísticas da competição.
 
-## Tecnologia
-- Java (uso de `Scanner` para entrada de dados via console).
+## Funcionalidades
+- Cadastro de 5 seleções e de 11 jogadores para cada seleção.
+- Busca de seleções e jogadores pelos nomes ou números de inscrição.
+- Registro dos jogos de ida e volta entre todas as seleções.
+- Consulta do campeão, dos artilheiros e do desempenho das seleções e dos jogadores.
+- Cálculo de percentuais de jogadores que marcaram gols e de jogadores com mais de 5 gols.
+- Ranking das seleções por pontos.
 
-## Requisitos atendidos
-- **Estruturas de seleção:** menus via `switch` com suas respectivas funcionalidades.
-- **Estruturas de repetição:** `do-while` deixam o sistema em execução até a finalização na tela de resultados da competição.
-- **Vetores:** um do tipo `string` para guardar os nomes das seleções e outro do tipo `int` para guardar os pontos das seleções.
-- **Matrizes:** um para guardar os nomes dos jogadores e relacionar com suas seleções e outro para relacionar os gols feitos na partidas aos jogadores.
-- **Métodos:** Todas as funcionalidades do sistema funcionam por métodos separados, somente sendo chamados dentro de outro para funcionar conforme observado no src do projeto.
+## Regras da competição
+- Cada par de seleções se enfrenta duas vezes: uma partida de ida e outra de volta. Ao todo, são 20 partidas, e cada seleção disputa 8 jogos.
+- Uma vitória vale 3 pontos; um empate vale 1 ponto para cada seleção.
+- O campeão é definido pela maior pontuação. Em caso de empate, vence a seleção com mais gols marcados.
+- O ranking é ordenado somente pela pontuação; em caso de empate, a ordem de cadastro é mantida.
 
+## Tecnologias e conceitos
+- Java e `Scanner` para entrada de dados pelo terminal.
+- Vetores (`String[]` e `int[]`) e matrizes (`String[][]` e `int[][]`) para armazenar seleções, jogadores, pontos e gols.
+- Estruturas condicionais (`switch` e `if`), repetição (`do-while` e `for`) e métodos para organizar as funcionalidades.
+
+## Como rodar
+Na raiz do projeto, compile e execute:
+
+1. Compile o programa:
+   ```bash
+   javac src/Sistema_Copa_Universitaria.java
+   ```
+2. Execute:
+   ```bash
+   java -cp src Sistema_Copa_Universitaria
+   ```
+
+É necessário ter o JDK instalado. Os dados são mantidos apenas durante a execução e não são salvos em arquivo.
+
+## Observações
+- A opção de gol contra está disponível no registro da partida, mas esses gols não são contabilizados nas estatísticas de gols das seleções nem dos jogadores.
+- Os menus esperam opções numéricas; gols e números de inscrição também devem ser informados como números.

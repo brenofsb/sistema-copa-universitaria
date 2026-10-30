@@ -1,7 +1,4 @@
 //Alunos: Breno Ferreira Santos Borges
-
-package Copa_universitaria;
-
 import java.util.Scanner;
 
 public class Sistema_Copa_Universitaria {
